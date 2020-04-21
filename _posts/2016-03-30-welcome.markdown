@@ -1,0 +1,10 @@
+---
+layout: post
+title:  "Bem Vindo ao madmazz.tech!"
+date:   2020-04-21 20:00:31 +0300
+categories: ["blog"]
+---
+Primeiramente obrigado pela sua visita, espero que esse blog seja util para agregar conhecimento.
+Estarei falando bastante sobre programação em geral, devops, engenharia reversa, pentest e etc.<br> Vou compartilhar aprendizados e erros que acumulei e ainda vou acumular com o passar do tempo.
+Alem disso vou abrir espaco para outros pessoas postarem sobre aprendizados, tutorias e afins. 
+

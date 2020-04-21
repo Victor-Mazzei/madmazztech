@@ -1,0 +1,35 @@
+<footer class="site-footer">
+
+  <div class="wrapper">
+
+
+    <div class="footer-col-wrapper">
+
+
+      <div class="footer-content" style="text-align: center;">
+        <ul class="social-media-list">
+          {% if site.github_username %}
+          <li>
+            {% include icon-github.html username=site.github_username %}
+          </li>
+          {% endif %}
+
+          {% if site.twitter_username %}
+          <li>
+            {% include icon-twitter.html username=site.twitter_username %}
+          </li>
+          {% endif %}
+          <li>
+            <div class=" site-description">
+              <p> <a href="/index.html">{{ site.description }}</a></p>
+            </div>
+          </li>
+        </ul>
+      </div>
+
+
+    </div>
+
+  </div>
+
+</footer>

@@ -1,0 +1,21 @@
+<div class="wrapper">
+  <center> <a href="/index.html" style="border: none;">
+      <img src="/assets/trans_logo_mm.png" class="site-title" style="width: 20%; height: auto;" alt="{{site.title}}">
+    </a></center>
+</div>
+<div class="wrapper site-description" style="margin-top: 20px;">
+  <center> {{site.description}} </center>
+</div>
+<div class="wrapper">
+  <div class="trigger site-navigation" style="text-align: center;">
+    <a class="page-link" href="{{site.url}}{{site.baseurl}}">HOME</a>
+
+    {% for sitePage in site.pages %}
+    {% if sitePage.title %}
+
+    <span class="exclamationMark">/</span><a class="page-link"
+      href="{{sitePage.url | prepend: site.baseurl }}">{{sitePage.title}}</a>
+    {% endif %}
+    {% endfor %}
+  </div>
+</div>

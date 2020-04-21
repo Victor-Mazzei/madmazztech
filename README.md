@@ -1,0 +1,7 @@
+
+# MADMAZZ.TECH PERSONAL WEBSITE
+
+
+SITE FEITO COM JEKYLL UTILIZANDO O TEMA [GRAVITY](https://hemangkumar.xyz/Gravity/)
+
+
